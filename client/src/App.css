@@ -1,0 +1,30 @@
+.item-card {
+  padding: 15px;
+  border: 1px solid #444; /* Darker border for dark theme */
+  border-radius: 8px;
+  background-color: #2c2c2c; /* Dark background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  color: #f1f1f1; /* Light text for contrast */
+  text-align: left;
+}
+
+.item-card h3 {
+  margin: 0 0 10px;
+  color: #ffcc00; /* Highlighted heading color */
+}
+
+.item-card p {
+  margin: 5px 0;
+  color: #d3d3d3; /* Slightly lighter text for paragraphs */
+}
+
+.item-card strong {
+  color: #ffffff; /* Bold text in white for emphasis */
+}
+
+/* Optional: Add hover effect for better interactivity */
+.item-card:hover {
+  background-color: #3a3a3a; /* Slightly lighter background on hover */
+  border-color: #555; /* Change border color on hover */
+  transition: background-color 0.3s, border-color 0.3s;
+}
